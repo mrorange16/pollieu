@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POLLIEU</title>
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="css/shared.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/customers.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="backdrop"></div>
+    <header class="main-header">
+      <div>
+        <button class="toggle-button">
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+        </button>
+        <a href="index.html" class="main-header__brand">
+          <img
+            src="images/pollieu.png"
+            alt="uHost - Your favorite hosting company"
+          />
+        </a>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav__items">
+          <li class="main-nav__item">
+            <a href="index.html">Sobre Mi</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="index.html">Servicios</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="proyectos.html">Proyectos</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="contacto.html#contacto">Contacto</a>
+          </li>
+          <!-- <li class="main-nav__item main-nav__item--cta">
+            <a href="start-hosting/index.html">Start Hosting</a>
+          </li> -->
+        </ul>
+      </nav>
+    </header>
+    <nav class="mobile-nav">
+      <ul class="mobile-nav__items">
+        <li class="mobile-nav__item">
+          <a href="index.html">Sobre Mi</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="index.html">Servicios</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="proyectos.html">Proyectos</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="contacto.html#contacto">Contacto</a>
+        </li>
+        <!-- <li class="mobile-nav__item mobile-nav__item--cta">
+          <a href="start-hosting/index.html">Start Hosting</a>
+        </li> -->
+      </ul>
+    </nav>
+    <main>
+      <section id="product-overview">
+        <div id="t"><span id="intro">Diseño Gráfico</span></div>
+      </section>
+      <!-- <img
+        class="myImg"
+        src="images/blog1.png"
+        alt="Snow"
+        style="width: 100%; max-width: 300px"
+      /> -->
+
+      <!-- The Modal -->
+      <div id="myModal" class="mmodal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01" />
+        <div id="caption"></div>
+      </div>
+
+      <section id="contacto">
+        <div id="contact" class="f-container">
+          <div class="form-container">
+            <div class="left-container">
+              <div class="left-inner-container">
+                <!-- <h2>Let's Chat</h2>
+                <p>
+                  Whether you have a question, want to start a project or simply
+                  want to connect.
+                </p>
+                <br />
+                <p>Feel free to send me a message in the contact form</p> -->
+              </div>
+            </div>
+
+            <div class="right-container">
+              <div class="right-inner-container">
+                <form class="contact-form" action="#">
+                  <h2 class="lg-view primary-color">Contáctanos!</h2>
+
+                  <!-- <p>* Required</p> -->
+                  <div class="social-container">
+                    <a href="#" class="social"
+                      ><i class="fa fa-facebook primary-color"></i
+                    ></a>
+                    <a href="#" class="social"
+                      ><i class="fa fa-youtube primary-color"></i
+                    ></a>
+                    <a href="#" class="social"
+                      ><i class="fa fa-instagram primary-color"></i
+                    ></a>
+                  </div>
+                  <input type="text" placeholder="Nombre" />
+                  <input type="email" placeholder="Email" />
+
+                  <input type="phone" placeholder="Teléfono" />
+                  <textarea rows="4" placeholder="Mensaje"></textarea>
+                  <button>Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <nav>
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <img src="images/pollieu.png" alt="POLLIEU" />
+          </li>
+          <li class="main-footer__link">
+            <p>
+              Copyright &#169; 2023 <a href="#">POLLIEU</a> All rights reserved
+            </p>
+          </li>
+
+          <li class="main-footer__link">
+            <div class="social-container">
+              <a href="#" class="social"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="social"><i class="fa fa-youtube"></i></a>
+              <a href="#" class="social"><i class="fa fa-instagram"></i></a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/shared.js"></script>
+    <script src="js/t.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+  </body>
+</html>
